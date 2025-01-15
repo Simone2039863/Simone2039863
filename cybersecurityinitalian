@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sicurezza in rete</title>
+</head>
+<body>
+    <h2>In questa pagina parleremo della sicurezza in rete</h2>
+    <ul>
+        <li>Per prima cosa poniamoci la domanda cose' la sicurezza in rete?.</li>
+        <p>La sicurezza di rete è il campo della cybersecurity incentrato sulla protezione delle reti e dei sistemi informatici da minacce e attacchi informatici interni ed esterni.</p>
+    </ul>
+    <ul>
+        <p>La sicurezza in rete ha due obiettivi principali:</p>
+        <li>Proteggere le risorse, rileva le minacce e garantisce l'accesso autorizzato.</li>
+            <li>E la sicurezza di rete: prevenire intrusioni, rilevare attacchi, garantire l'accesso.</li>
+    </ul>
+    <ul>
+        <p>Con l'aumento delle dimensioni e della complessita' delle reti, aumenta anche il rischio di attacchi informatici.</p>
+        <p>Secondo il report Cost of a Data Breach 2023 di IBM;</p>
+        <li>"I costi delle violazioni dei dati sono in aumento, specialmente per i dati nel cloud. Il report IBM 2023 riporta un costo medio globale di 4,45 milioni di dollari."</li>
+        <li>"L'aumento delle reti e della complessità digitale sta rendendo gli attacchi informatici sempre più frequenti e costosi, soprattutto per i dati nel cloud (IBM 2023)."</li>
+        <li>"Il cloud è un bersaglio sempre più grande per gli hacker. Il report IBM 2023 mostra che l'82% delle violazioni coinvolge dati cloud, con costi medi molto elevati."</li>
+    </ul>
+    <h3>Tipi di tecnologie di sicurezza di rete:</h3>
+    <h4>Firewall</h4>
+    <ul>
+        <p>Il firewall è uno dei primi e più importanti strumenti di sicurezza di rete. Agisce come un guardiano virtuale, controllando e filtrando tutto il traffico in entrata e in uscita dalla rete.</p>
+        <img src="0images.png" width="300px">
+        <p>Funzioni principali:</p>
+        <li>Blocca il traffico non autorizzato: Impedisce agli hacker di accedere alla rete e ai dati sensibili.</li>
+        <li>Filtra il traffico in base a regole: Permette di definire regole precise su quali tipi di traffico sono consentiti e quali sono bloccati.</li>
+        <li>Crea zone DMZ: Isolate le risorse pubbliche dalla rete interna per ridurre il rischio di attacchi.</li>
+    </ul>
+    <h4>Sistemi di Prevenzione delle Intrusioni (IPS)</h4>
+    <ul>
+        <p>Gli IPS sono sistemi più sofisticati dei firewall. Oltre a filtrare il traffico, sono in grado di analizzare il contenuto dei pacchetti per identificare e bloccare attacchi più sofisticati, come gli exploit e le scansioni di vulnerabilità.</p>
+       <img src="1images.jpg" width="300px"> 
+        <p>Funzioni principali:</p>
+        <li>Rilevamento di attacchi in tempo reale: Analizza il traffico alla ricerca di firme di attacchi noti e comportamenti anomali.</li>
+        <li>Prevenzione degli attacchi: Blocca gli attacchi prima che possano causare danni.</li>
+        <li>Generazione di allarmi: Avvisa l'amministratore di sistema in caso di rilevamento di una minaccia.</li>
+    </ul>
+    <h4>Sistemi di Rilevamento delle Intrusioni (IDS)</h4>
+    <ul>
+        <p>Gli IDS sono simili agli IPS, ma si concentrano principalmente sulla rilevazione delle intrusioni, senza necessariamente bloccarle. Generano allarmi che consentono agli amministratori di indagare ulteriormente e prendere le misure necessarie.</p>
+        <img src="2images.jpg" width="300px">
+    </ul>
+    <h4>VPN (Virtual Private Network)</h4>
+    <ul>
+        <p>Una VPN crea una connessione sicura e crittografata tra due o più reti. Viene spesso utilizzata per consentire agli utenti di accedere in modo sicuro alla rete aziendale da una posizione remota.</p>
+        <img src="3images.png" width="300px">
+        <p>Funzioni principali:</p>
+        <li>Crittografia dei dati: Protegge i dati trasmessi dalla rete.</li>
+        <li>Mascheramento dell'indirizzo IP: Nasconde l'identità dell'utente e la sua posizione geografica.</li>
+        <li>Accesso remoto sicuro: Consente agli utenti di lavorare da remoto in modo sicuro.</li>
+    </ul>
+    <h4>Sistemi di Prevenzione della Perdita di Dati (DLP)</h4>
+    <ul>
+        <p>I DLP sono sistemi progettati per identificare e proteggere i dati sensibili all'interno di un'organizzazione. Monitorano il traffico di rete e i dispositivi degli utenti per prevenire la perdita accidentale o intenzionale di informazioni riservate.</p>
+        <img src="4images.png" width="300px">
+        <p>Funzioni principali:</p>
+        <li>Identificazione dei dati sensibili: Riconosce i dati classificati come riservati.</li>
+        <li>Monitoraggio del traffico: Controlla il traffico di rete alla ricerca di tentativi di trasferire dati sensibili.</li>
+        <li>Prevenzione della perdita di dati: Blocca la trasmissione di dati sensibili verso destinazioni non autorizzate.</li>
+    </ul>
+</body>
+</html>
